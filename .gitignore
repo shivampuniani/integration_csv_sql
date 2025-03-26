@@ -1,6 +1,6 @@
 config.ini
 log_file.txt
-
+log_result.txt
 __pycache__/
 *.pyc
 
