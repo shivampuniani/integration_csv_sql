@@ -1,0 +1,25 @@
+USE [Test_Database]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Test_CSV](
+	[unit] [nvarchar](6) NULL,
+	[date_shift] [nvarchar](16) NULL,
+	[date] [nvarchar](10) NULL,
+	[product] [nvarchar](30) NULL,
+	[test] [nvarchar](10) NULL,
+	[system] [nvarchar](16) NULL,
+	[group] [nvarchar](10) NULL,
+	[values] [nvarchar](10) NULL,
+	[timestamp] [smalldatetime] NULL,
+	[status] [numeric](1, 0) NULL,
+	[file_name] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+
+
